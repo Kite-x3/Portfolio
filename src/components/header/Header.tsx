@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <header className={classes.header}>
-      <img src="/kite.jpg" alt="Kite GIF"/>
+        <video src='/Kite.mkv' autoPlay loop muted playsInline />
         <h1>
           <strong>
             Hi, my name is <em>Stanislav</em>
@@ -12,8 +12,7 @@ export default function Header() {
           <br />
           Frontend developer
         </h1>
-        <img src="/kite.jpg" alt="Kite GIF"/>
-
+        <video src='/Kite.mkv' autoPlay loop muted playsInline />
       </header>
     </>
   )
