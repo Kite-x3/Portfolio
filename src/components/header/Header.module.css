@@ -31,3 +31,10 @@
   min-height: 5vh;
   min-width: 5vw;
 }
+
+@media (max-width: 650px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
