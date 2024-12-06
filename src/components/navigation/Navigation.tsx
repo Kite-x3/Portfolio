@@ -4,7 +4,7 @@ export default function Navigation() {
   return (
     <>
       <nav className={classes.navigation}>
-        <p>Developer Portfolio</p>
+        <p>Portfolio</p>
         <ul>
           <li>Portfolio</li>
           <li>Projects</li>

@@ -5,7 +5,7 @@
   text-align: center;
   background-color: #121212;
   gap: 2rem;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 @media (max-width: 650px) {
