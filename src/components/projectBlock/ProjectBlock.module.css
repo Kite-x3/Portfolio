@@ -1,0 +1,9 @@
+.projectBlock {
+  border-radius: 3%;
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.projectBlock img {
+  max-width: 30vw;
+}

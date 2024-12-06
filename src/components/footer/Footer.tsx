@@ -1,5 +1,5 @@
-import GithubLogo from '../icons/GithubLogo'
-import VkLogo from '../icons/VkLogo'
+import GithubLogo from '../img/socialLoogos/GithubLogo'
+import VkLogo from '../img/socialLoogos/VkLogo'
 import classes from './footer.module.css'
 
 export default function Footer() {

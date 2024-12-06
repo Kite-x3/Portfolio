@@ -1,5 +1,5 @@
 import classes from './section.module.css'
-import { skillsData } from './data.ts'
+import { skillsData } from './../../helpers/SkillsData.ts'
 import InfoBlock from '../infoBlock/InfoBlock.tsx'
 
 export default function Section() {

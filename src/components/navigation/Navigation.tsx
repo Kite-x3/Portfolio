@@ -6,7 +6,7 @@ export default function Navigation() {
       <nav className={classes.navigation}>
         <p>Portfolio</p>
         <ul>
-          <li>Portfolio</li>
+          <li>Home</li>
           <li>Projects</li>
           <li>Contacts</li>
         </ul>
