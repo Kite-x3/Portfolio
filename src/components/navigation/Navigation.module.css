@@ -1,4 +1,4 @@
-.navigation {
+.navList {
   background-color: #46394b;
   color: white;
   padding: 10px;
@@ -10,22 +10,31 @@
   border-bottom: 3px solid #ffffff;
 }
 
-.navigation p {
+.navList .Logo {
+  text-decoration: none;
+  color: inherit;
   font-size: 1rem;
   margin: 0;
   position: absolute;
-  left: 10px;
+  left: 1rem;
 }
 
-.navigation ul {
+.navList ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   margin: 0;
   padding: 0;
 }
 
-.navigation li {
+.navList .Link {
+  text-decoration: none;
+  color: inherit;
   font-size: 0.8rem;
   padding: 5px 10px;
+}
+
+.navList .Link.active {
+  font-weight: bold;
+  border-bottom: 4px solid #9932cc;
 }

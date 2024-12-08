@@ -7,3 +7,6 @@
 .projectBlock img {
   max-width: 30vw;
 }
+.projectBlock h2 {
+  margin-bottom: 0.3rem;
+}
