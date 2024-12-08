@@ -1,7 +1,18 @@
 .projectContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 25vw 25vw 25vw;
   text-align: center;
   gap: 2rem;
-  padding: 5rem;
+}
+
+.projectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+.projectSection .projectSectionHead {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }

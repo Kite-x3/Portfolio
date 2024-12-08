@@ -1,12 +1,17 @@
 .projectBlock {
   border-radius: 3%;
   background-color: white;
-  padding: 1.5rem;
+  padding: 0.5rem;
 }
 
 .projectBlock img {
-  max-width: 30vw;
+  max-width: 20vw;
+  min-width: 5vw;
 }
 .projectBlock h2 {
   margin-bottom: 0.3rem;
+}
+
+.projectBlock p {
+  font-size: 0.7rem;
 }
