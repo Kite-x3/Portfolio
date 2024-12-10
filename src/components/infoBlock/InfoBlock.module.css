@@ -1,6 +1,7 @@
 .Block {
   background-color: black;
-  border-radius: 3%;
+  border-radius: 2%;
+  height: fit-content;
 }
 
 .Block ul {
@@ -11,7 +12,7 @@
   padding-inline-end: 1rem;
 }
 
-.Block h2 {
+.Block h3 {
   margin: 1rem;
 }
 

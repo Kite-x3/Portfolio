@@ -26,7 +26,7 @@ export default function InfoBlock({
 
   return (
     <div className={classes.Block} key={sectionIndex}>
-      <motion.h2
+      <motion.h3
         variants={headerVariants}
         initial='start'
         whileInView='apear'
@@ -35,7 +35,7 @@ export default function InfoBlock({
         viewport={{ once: true }}
       >
         {title}
-      </motion.h2>
+      </motion.h3>
       <ul>
         {skills.map((skill: string, index: number) => (
           <motion.li
