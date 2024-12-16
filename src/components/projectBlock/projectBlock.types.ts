@@ -3,4 +3,5 @@ export interface ProjectBlockProps {
   img: string
   description: string
   githubLink: string
+  index: number
 }

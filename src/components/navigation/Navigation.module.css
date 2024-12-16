@@ -36,5 +36,5 @@
 
 .navList .Link.active {
   font-weight: bold;
-  border-bottom: 4px solid #9932cc;
+  border-bottom: 3px solid #9932cc;
 }

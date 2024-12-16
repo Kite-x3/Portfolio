@@ -1,11 +1,11 @@
 import Header from '../components/header/Header'
-import Section from '../components/section/Section'
+import SkillsSection from '../components/skillsSection/SkillsSection'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Section />
+      <SkillsSection />
     </>
   )
 }

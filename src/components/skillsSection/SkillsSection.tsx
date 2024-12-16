@@ -1,8 +1,8 @@
-import classes from './section.module.css'
-import { skillsData } from './../../helpers/SkillsData.ts'
+import classes from './SkillsSection.module.css'
+import { skillsData } from '../../helpers/SkillsData.ts'
 import InfoBlock from '../infoBlock/InfoBlock.tsx'
 
-export default function Section() {
+export default function SkillsSection() {
   return (
     <section className={classes.skillsSection}>
       <h2>About me</h2>

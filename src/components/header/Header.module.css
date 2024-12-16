@@ -11,8 +11,7 @@
   background-color: rgb(0, 0, 0);
   color: white;
   border-bottom: 3px solid rgb(202, 202, 202);
-  text-shadow: 0.5px 0.5px 0px black, -0.5px 0.5px 0px black,
-    0.5px -0.5px 0px black, -0.5px -0.5px 0px black;
+  text-shadow: 2px 2px 4px black;
 }
 
 .header::before {
@@ -20,7 +19,7 @@
   background-image: url('/public/backgroundImg/backgroundWhite.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 30vh;
+  background-size: 15vw;
   position: absolute;
   top: 0;
   left: 0;
@@ -33,14 +32,14 @@
 .header em {
   color: #9932cc;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .header strong {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .header h1 {
-  font-size: clamp(15px, 2.5vw, 25px);
+  font-size: 1rem;
   margin-bottom: 30px;
 }
 
@@ -54,6 +53,9 @@
 @media (max-width: 650px) {
   .header {
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+  }
+  .header::before {
+    background-size: 50vw;
   }
 }

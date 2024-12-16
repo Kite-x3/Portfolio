@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 650px) {
-  .skillsSection {
+  .skillsInfo {
     grid-template-columns: 1fr;
   }
 }
