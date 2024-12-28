@@ -1,7 +1,7 @@
 #root {
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  background-color: var(--background-color);
 }
 main {
   flex: 1;
@@ -10,5 +10,5 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #121212;
+  background-color: var(--second-background-color);
 }

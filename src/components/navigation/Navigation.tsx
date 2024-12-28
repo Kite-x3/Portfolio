@@ -1,3 +1,4 @@
+import BtnDarkMode from '../btnDarkMode/BtnDarkMode'
 import classes from './Navigation.module.css'
 import { NavLink } from 'react-router-dom'
 
@@ -34,6 +35,7 @@ export default function Navigation() {
             Contacts
           </NavLink>
         </ul>
+        <BtnDarkMode />
       </nav>
     </>
   )

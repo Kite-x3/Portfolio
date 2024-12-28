@@ -1,7 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
 
+:root {
+  --background-color: black;
+  --second-background-color: #121212;
+  --text-color: white;
+  --accent: #b272d2;
+  --header-background-image: url('/public/backgroundImg/backgroundWhite.png');
+  --text-shadow-color: black;
+}
+
 body {
   min-height: 100vh;
+}
+
+body.light {
+  --background-color: white;
+  --second-background-color: #f7effc;
+  --text-color: black;
+  --header-background-image: url('/public/backgroundImg/backgroundBlack.png');
+  --text-shadow-color: white;
 }
 
 * {

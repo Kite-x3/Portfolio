@@ -1,0 +1,11 @@
+.BtnDarkMode {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+  margin: 0;
+  position: absolute;
+  right: 1rem;
+  background-color: var(--background-color);
+  border: 1px solid var(--text-color);
+  border-radius: 20px;
+}

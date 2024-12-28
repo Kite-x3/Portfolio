@@ -6,7 +6,7 @@
 }
 
 .contactInfoBlock h2 {
-  border-bottom: 2px solid #9932cca9;
+  border-bottom: 2px solid var(--accent);
   font-size: 1.2rem;
   margin-bottom: 0.3rem;
   width: fit-content;

@@ -1,13 +1,13 @@
 .navList {
-  background-color: #46394b;
-  color: white;
+  color: var(--text-color);
+  background-color: var(--background-color);
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 2px solid var(--text-color);
 }
 
 .navList .Logo {
@@ -36,5 +36,5 @@
 
 .navList .Link.active {
   font-weight: bold;
-  border-bottom: 3px solid #9932cc;
+  border-bottom: 3px solid var(--accent);
 }

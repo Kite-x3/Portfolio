@@ -3,6 +3,8 @@ import Footer from './components/footer/Footer'
 import Navigation from './components/navigation/Navigation'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import ScrollToTop from './utils/ScrollToTop'
+
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
@@ -11,6 +13,7 @@ export default function App() {
   return (
     <div className='App'>
       <Router>
+        <ScrollToTop />
         <Navigation />
         <Routes>
           <Route path='/' element={<Home />}></Route>
