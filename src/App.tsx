@@ -13,7 +13,7 @@ import ScrollHandler from './utils/ScrollHandler'
 export default function App() {
   return (
     <div className='App'>
-      <Router>
+      <Router basename='/Portfolio'>
         <ScrollToTop />
         <ScrollHandler />
         <Navigation />
