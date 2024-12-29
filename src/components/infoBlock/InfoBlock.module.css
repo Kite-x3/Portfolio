@@ -34,7 +34,7 @@
   transform: translateY(-50%);
   width: 1.1rem;
   height: 1.1rem;
-  background-image: url('/public/angle-double-right.png');
+  background-image: url('/angle-double-right.png');
   background-size: contain;
   background-repeat: no-repeat;
 }

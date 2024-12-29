@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  min-height: 100%;
 }
 
 .projectContainer {
@@ -18,4 +19,10 @@
   color: var(--text-color);
   margin-bottom: 1rem;
   font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+  .projectContainer {
+    grid-template-columns: 1fr 1fr;
+  }
 }

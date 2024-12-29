@@ -8,12 +8,14 @@ import ScrollToTop from './utils/ScrollToTop'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contacts from './pages/Contacts'
+import ScrollHandler from './utils/ScrollHandler'
 
 export default function App() {
   return (
     <div className='App'>
       <Router>
         <ScrollToTop />
+        <ScrollHandler />
         <Navigation />
         <Routes>
           <Route path='/' element={<Home />}></Route>
