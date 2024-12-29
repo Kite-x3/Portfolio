@@ -4,8 +4,37 @@
   font-size: 1rem;
   margin: 0;
   position: absolute;
-  right: 1rem;
+  right: 0.5rem;
   background-color: var(--background-color);
-  border: 1px solid var(--text-color);
+  border: 2px solid var(--text-color);
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.5s ease;
+}
+
+.BtnDarkMode:hover {
+  cursor: pointer;
+}
+.BtnDarkMode .icon {
+  width: 1rem;
+  height: 1rem;
+  max-width: 100%;
+  max-height: 100%;
+  transition: fill 0.5s ease;
+  padding-left: 0.4rem;
+}
+
+.BtnDarkMode .icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body:not(.light) .BtnDarkMode .icon {
+  fill: var(--text-color);
+}
+
+body.light .BtnDarkMode .icon {
+  fill: var(--text-color);
 }

@@ -1,6 +1,7 @@
 import { motion } from 'motion/react'
 import { InfoBlockProps } from './InfoBlock.types'
 import classes from './InfoBlock.module.css'
+import AngleIcon from './AngleIcon'
 
 export default function InfoBlock({
   title,
@@ -46,6 +47,7 @@ export default function InfoBlock({
             key={index}
             viewport={{ once: true }}
           >
+            <AngleIcon />
             {skill}
           </motion.li>
         ))}
