@@ -60,5 +60,6 @@
   .header::before {
     background-size: 30vw;
     transform: translateY(-2%);
+    filter: blur(0.8px);
   }
 }
